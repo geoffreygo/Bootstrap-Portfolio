@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(images/mekong-green.png);
+}
+
+#name,
+#about,
+#portfolio,
+.container h4,
+.container h3
+ {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.container h3 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 25rem;
+    height: 6rem;
+    line-height: 6rem;
+    margin: 0;
+}
+
+.container h4 {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background: #4aaaa5;
+    color: white;
+    /* margin-top: -7rem; */
+}
+
+#about,
+#portfolio {
+    color: #4aaaa5;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    margin-top: 8rem;
+}
+
+nav {
+    border-bottom: 4px solid #cccccc;
+}
+
+.bio {
+    line-height: 2rem;
+}
+
+nav .container {
+    width: 60rem;
+}
