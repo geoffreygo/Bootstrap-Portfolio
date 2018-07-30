@@ -7,6 +7,7 @@ body {
 #name,
 #about,
 #portfolio,
+#contact,
 .container h4,
 .container h3
  {
@@ -22,23 +23,23 @@ body {
     margin: 0;
 }
 
-.container h4 {
-    width: 100%;
-    height: 4rem;
-    line-height: 4rem;
-    background: #4aaaa5;
-    color: white;
-    /* margin-top: -7rem; */
-}
-
 #about,
-#portfolio {
+#portfolio,
+#contact {
     color: #4aaaa5;
+    /* width: 100% */
 }
 
 .footer {
-    border-top: 8px solid #4aaaa5;
-    margin-top: 8rem;
+    border-top: 0.5rem solid #4aaaa5;
+    background-color: #666666;
+    height: 4rem;
+}
+
+.footer h6 {
+    color: #777777;
+    line-height: 4rem;
+    font-size: 0.5rem;
 }
 
 nav {
@@ -51,4 +52,32 @@ nav {
 
 nav .container {
     width: 60rem;
+}
+
+.pics {
+    background: #4aaaa5;
+    position: relative;
+}
+
+.pics h4 {
+    width: 18.75rem;
+    height: 4rem;
+    line-height: 4rem;
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+
+input[type=submit] {
+    width: 5.5rem;
+    background: #4aaaa5;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.spacer {
+    height: 3rem;
 }
