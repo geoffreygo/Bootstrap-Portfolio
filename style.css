@@ -57,16 +57,19 @@ nav .container {
 .pics {
     background: #4aaaa5;
     position: relative;
+    width: 100%;
+    max-width: 300px;
 }
 
 .pics h4 {
-    width: 18.75rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 100%;
+    max-width: 300px;
+    height: 31%;
+    line-height: 170%;
     background: #4aaaa5;
     color: white;
     position: absolute;
-    bottom: 0.5rem;
+    bottom: 5%;
 }
 
 
